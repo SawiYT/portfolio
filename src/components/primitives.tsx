@@ -1,4 +1,4 @@
-import { tv } from 'tailwind-variants'
+import { tv } from 'tailwind-variants';
 
 export const title = tv({
 	base: 'tracking-tight inline font-semibold pb-5',
@@ -14,7 +14,7 @@ export const title = tv({
 		},
 		size: {
 			sm: 'text-3xl lg:text-4xl',
-			md: 'text-[2.3rem] lg:text-6xl leading-9',
+			md: 'text-[2.3rem] lg:text-4xl leading-9',
 			lg: 'text-xl md:text-7xl',
 		},
 		fullWidth: {
@@ -30,7 +30,7 @@ export const title = tv({
 			class: 'bg-clip-text text-transparent bg-gradient-to-b',
 		},
 	],
-})
+});
 
 export const subtitle = tv({
 	base: 'w-full md:w-1/2 my-2 text-lg lg:text-xl pt-5 text-default-600 block max-w-full',
@@ -42,7 +42,7 @@ export const subtitle = tv({
 	defaultVariants: {
 		fullWidth: true,
 	},
-})
+});
 
 export const logotitle = tv({
 	base: 'w-full md:w-1/2 my-2 text-lg lg:text-3xl pt-5 text-default-600 block max-w-full',
@@ -54,4 +54,4 @@ export const logotitle = tv({
 	defaultVariants: {
 		fullWidth: true,
 	},
-})
+});
